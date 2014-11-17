@@ -1,0 +1,6 @@
+﻿  test.cpp
+  testCUDAWithOpenCV.vcxproj -> F:\git\testCudaInCpp\testCudaInCpp\Debug\testCUDAWithOpenCV.exe
+  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "F:\git\testCudaInCpp\testCudaInCpp\Debug\"
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart32_65.dll
+  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart64_65.dll
+  已复制         2 个文件。

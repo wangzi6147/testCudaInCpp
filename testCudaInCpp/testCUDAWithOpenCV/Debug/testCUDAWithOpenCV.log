@@ -1,6 +1,106 @@
-﻿  test.cpp
-  testCUDAWithOpenCV.vcxproj -> F:\git\testCudaInCpp\testCudaInCpp\Debug\testCUDAWithOpenCV.exe
-  copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "F:\git\testCudaInCpp\testCudaInCpp\Debug\"
-  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart32_65.dll
-  C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart64_65.dll
-  已复制         2 个文件。
+﻿生成启动时间为 2015/4/20 16:19:07。
+     1>项目“D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\testCUDAWithOpenCV\testCUDAWithOpenCV.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CudaClean:
+         cmd.exe /C "C:\Users\Wang\AppData\Local\Temp\tmp52dd8960b22f4993b4f9e50e18b39d96.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -ccbin "D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\swap_rb.cu.obj "D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\testCUDAWithOpenCV\swap_rb.cu" -clean
+         
+         D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\testCUDAWithOpenCV>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -ccbin "D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\swap_rb.cu.obj "D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\testCUDAWithOpenCV\swap_rb.cu" -clean 
+         swap_rb.cu
+       AddCudaCompileDeps:
+         D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin" /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /I. /FIcuda_runtime.h /c D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\testCUDAWithOpenCV\swap_rb.cu 
+       CudaBuild:
+         Compiling CUDA source file swap_rb.cu...
+         cmd.exe /C "C:\Users\Wang\AppData\Local\Temp\tmp46ab0688d50041da9743cb12005909c1.cmd"
+         "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\swap_rb.cu.obj "D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\testCUDAWithOpenCV\swap_rb.cu"
+         
+         D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\testCUDAWithOpenCV>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\nvcc.exe" -gencode=arch=compute_20,code=\"sm_20,compute_20\" --use-local-env --cl-version 2013 -ccbin "D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\bin"  -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd  " -o Debug\swap_rb.cu.obj "D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\testCUDAWithOpenCV\swap_rb.cu" 
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(783): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(1659): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\sm_13_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(948): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(1984): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(2932): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(3882): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(4853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(5899): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(6842): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(7786): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(8712): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(9705): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions_decls.h(10766): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(783): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(1659): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\sm_13_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(783): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_functions.h(1659): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\sm_13_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(853): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(1820): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(2700): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(3633): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(4541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(5447): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(6341): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h(7191): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         swap_rb.cu
+       ClCompile:
+         D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include" /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt test.cpp
+         test.cpp
+       Link:
+         D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\Debug\testCUDAWithOpenCV.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib opencv_calib3d249d.lib opencv_contrib249d.lib opencv_core249d.lib opencv_features2d249d.lib opencv_flann249d.lib opencv_gpu249d.lib opencv_highgui249d.lib opencv_imgproc249d.lib opencv_legacy249d.lib opencv_ml249d.lib opencv_nonfree249d.lib opencv_objdetect249d.lib opencv_ocl249d.lib opencv_photo249d.lib opencv_stitching249d.lib opencv_superres249d.lib opencv_ts249d.lib opencv_video249d.lib opencv_videostab249d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\Debug\testCUDAWithOpenCV.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\Debug\testCUDAWithOpenCV.lib" /MACHINE:X86 Debug\swap_rb.cu.obj
+         Debug\test.obj
+         testCUDAWithOpenCV.vcxproj -> D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\Debug\testCUDAWithOpenCV.exe
+       PostBuildEvent:
+         echo copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\Debug\"
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\Debug\"
+         :VCEnd
+         copy "C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart*.dll" "D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\Debug\"
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart32_65.dll
+         C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\bin\cudart64_65.dll
+         已复制         2 个文件。
+     1>已完成生成项目“D:\wangzi6147\Doc\git\testCudaInCpp\testCudaInCpp\testCUDAWithOpenCV\testCUDAWithOpenCV.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:19.63

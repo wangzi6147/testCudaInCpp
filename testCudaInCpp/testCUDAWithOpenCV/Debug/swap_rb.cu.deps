@@ -1,18 +1,18 @@
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\cuda_runtime.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\host_config.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\sal.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\vadefs.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\sal.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\ConcurrencySal.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\vadefs.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\builtin_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\host_defines.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\driver_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\host_defines.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\limits.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stddef.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\limits.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\stddef.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\surface_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\driver_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\texture_types.h
@@ -68,12 +68,12 @@ c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\surface_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\texture_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\vector_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\host_defines.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\string.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\wtime.inl
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\time.inl
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\string.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\time.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\wtime.inl
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\time.inl
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\math_functions.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\builtin_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_types.h
@@ -82,19 +82,19 @@ c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\surface_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\texture_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\vector_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\host_defines.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\stdlib.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cmath
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\yvals.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\use_ansi.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\math.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtgmath.h
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\xtr1common
-E:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\include\cstdlib
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\math.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\stdlib.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\cmath
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\yvals.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\xkeycheck.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\crtdefs.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\use_ansi.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\math.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\xtgmath.h
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\xtr1common
+D:\wangzi6147\soft\Microsoft Visual Studio 12.0\VC\include\cstdlib
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\cuda_surface_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\builtin_types.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_types.h
@@ -242,6 +242,6 @@ c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\host_defines.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\vector_functions.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\device_launch_parameters.h
 c:\program files\nvidia gpu computing toolkit\cuda\v6.5\include\vector_types.h
-E:\opencv\rebuildForX86\install\include\opencv2/core/cuda_devptrs.hpp
+D:\wangzi6147\Soft\opencv2.4.9\build_CUDA_VS2013\install\include\opencv2/core/cuda_devptrs.hpp
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\cuda_runtime.h
 C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v6.5\include\device_launch_parameters.h
